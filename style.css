@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color :cornsilk;
+    font-family:Arial, Helvetica, sans-serif  ;
+}
+
+
+.todoContainer {
+    background-color :bisque;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.addtodosection {
+    display:  flex;
+    margin: 15px;
+    background-color:beige;
+    border-radius: 10px;
+    padding: 10px 12px;
+    height: 50px;
+    font-size: large;
+}
+
+.addtodosection-input , .todosection-input {
+    flex: 1;
+    border-radius: 10px;
+    border-style: none;
+    background-color:bisque;
+}
+
+.datePicker-Add {
+    border-radius: 10px;
+    border-style: none;
+    background-color:bisque;
+    margin-left: 7px;
+}
+
+.addtodosection-input::placeholder {
+    font-size: 16px; 
+}
+
+
+
+
+.todo {
+    display: flex;
+    margin: 15px;
+    background-color :beige;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.todo-content {
+    flex: 1;
+    margin: 0px 10px;
+}
+
+.todosection {
+    display:  flex;
+    margin: 20px;
+    height: 30px;
+}
+
+.todosection-input {
+    background-color: beige;
+}
+
+
+.datePicker-Edit {
+    background-color: beige;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.addimg {
+    height: 30px;
+    width: 30px;
+}
+
+button {
+    margin: 0px 0px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: bisque ;
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin: 5px;
+    margin-right: -3px;
+    accent-color: black;
+}
+
+button:hover, input:hover {
+    cursor: pointer;
+}
+
+
+
+.tips {
+    margin: 15px;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+
+
+
+
+
+
+
+
+

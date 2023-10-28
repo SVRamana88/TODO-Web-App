@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+
+    <div class="todoContainer">
+
+        <div class="addtodosection">
+            <input class="addtodosection-input" id='todoTitle' type="text" placeholder="Enter your task">
+            <input class="datePicker-Add" id='datePicker' type="date" >
+            <button onclick="addTodo()"><img class="addimg" src="icons/circle-plus-solid.svg"></button>
+        </div>
+
+
+        <div id="todoLists"></div>
+        <div class="tips">
+            <strong>Eisenhower Matrix:</strong> <br>
+            
+            &#x2022; Urgent and Important: Do these tasks first. <br>
+            &#x2022; Important, but Not Urgent: Schedule a specific time to do these tasks.  <br>
+            &#x2022; Urgent, but Not Important: See if you can delegate these tasks.  <br>
+            &#x2022; Neither Urgent nor Important: These can be postponed or eliminated.  <br>
+            
+            <strong>The 80/20 Rule (Pareto Principle):</strong> <br>
+    
+            &#x2022; Focus on the 20% of tasks that yield 80% of the results.  <br>
+            &#x2022; Identify high-impact tasks and tackle them first.  <br>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
