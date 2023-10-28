@@ -113,21 +113,6 @@ button:hover, input:hover {
 
 
 
-@media (min-width: 0px) and (max-width: 500px)  {
-    .todoContainer {
-        
-        width: 90%;
-    
-    }
-}
-
-@media (min-width: 501px) and (max-width: 900px)  {
-    .todoContainer {
-        
-        width: 60%;
-    
-    }
-}
 
 
 
