@@ -11,9 +11,9 @@ if (Array.isArray(savedTodos)) {
 }
 else {
     todos = [
-        { title: 'gym', dueDate: '2020-8-23', isdone: false, isediting: false, id: 'id1' },
-        { title: 'ge home needs', dueDate: '2020-8-23', isdone: false, isediting: false, id: 'id2' },
-        { title: 'clean the house', dueDate: '2020-8-23', isdone: false, isediting: false, id: 'id3' }
+        { title: 'gym', dueDate: '2023-8-23', isdone: false, isediting: false, id: 'id1' },
+        { title: 'Get groceries', dueDate: '2023-8-23', isdone: false, isediting: false, id: 'id2' },
+        { title: 'slove 2 leetCode problems', dueDate: '2023-8-23', isdone: false, isediting: false, id: 'id3' }
     ];
 }
 
