@@ -116,7 +116,7 @@ button:hover, input:hover {
 @media (min-width: 0px) and (max-width: 500px)  {
     .todoContainer {
         
-        width: 350px;
+        width: 90%;
     
     }
 }
